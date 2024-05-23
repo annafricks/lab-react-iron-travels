@@ -2,10 +2,9 @@ import logo from "./assets/logo.png";
 import "./App.css";
 import TravelList from "./components/TravelList";
 
-
 function App() {
   return (
-    <div className="container">
+    <>
       <div>
         <img src={logo} className="logo" alt="App logo" />
       </div>
@@ -14,7 +13,7 @@ function App() {
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
       <TravelList />
-    </div>
+    </>
   );
 }
 
